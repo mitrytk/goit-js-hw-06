@@ -13,5 +13,18 @@
     <ul class="gallery"></ul>
 
     <script src="js/task-03.js" type="module"></script>
+    <style>
+      .gallery {
+        display: flex;
+        list-style: none;
+      }
+      .item + .item {
+        margin-left: 10px;
+      }
+      .item > img{
+        display: block;
+        width: 200px;
+      }
+    </style>
   </body>
 </html>
