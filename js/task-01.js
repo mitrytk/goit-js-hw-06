@@ -7,11 +7,12 @@ const ref = {
 }
 console.log(`Number of categories: ${ref.categoriesList.length}`);
 console.log(' ');
+
 ref.items.map( (item, index) => {
     console.log(`Category: ${item.children[0].textContent}`);
     console.log(`Elements: ${item.querySelectorAll(`ul > li`).length}`);
     console.log(' ');
 });
-// console.log(`Category: ${ref.categoryTitle.textContent}`);
+
 console.log(ref.items)
 
