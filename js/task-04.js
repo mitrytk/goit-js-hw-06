@@ -1,3 +1,4 @@
+"use strict";
 const counterStep = 1;
 let counterValue = 0;
 
