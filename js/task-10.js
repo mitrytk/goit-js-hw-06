@@ -9,8 +9,6 @@ createBtEl.addEventListener("click", createBoxes);
 destroyBtEl.addEventListener("click", destroyBoxes);
 
 function destroyBoxes(){
-  // const boxChildEl = boxesEl.children;
-  // boxChildEl.remove();
   boxesEl.innerHTML = " ";
 };
 function createBoxes(amount) {
