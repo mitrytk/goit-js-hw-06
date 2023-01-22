@@ -19,6 +19,4 @@ function onSubmitForm (event) {
         event.currentTarget.reset();
         return submitForm;
     }
-    
 }
-console.log(submitForm);
