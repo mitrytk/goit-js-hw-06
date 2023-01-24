@@ -4,7 +4,7 @@ const validLength = Number(inputTextEl.dataset.length);
 inputTextEl.addEventListener("blur", onInputValid);
 
 function onInputValid(event) {
-    if (inputTextEl.value.length >= validLength) {
+    if (inputTextEl.value.length === validLength) {
         inputTextEl.classList.remove("invalid");
         inputTextEl.classList.add("valid");
     } else {
